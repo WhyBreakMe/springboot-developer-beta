@@ -1,0 +1,28 @@
+spring:
+  jpa:
+    # transmitted query confirmed
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+    # run data.sql after table founded
+    defer-datasource-initialization: true
+
+  h2:
+    console:
+      enabled: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 146454582471-iqksn2ljapsvhu655bgr4lu6rhtsp2oa.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - email
+              - profile
+
+jwt:
+  issuer: yunanii@ourbox.co.kr
+  secret_key: study-springboot
