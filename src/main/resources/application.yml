@@ -17,12 +17,12 @@ spring:
       client:
         registration:
           google:
-            client-id: 146454582471-iqksn2ljapsvhu655bgr4lu6rhtsp2oa.apps.googleusercontent.com
-            client-secret: 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
+            client-id: test_id
+            client-secret: test_secret
             scope:
               - email
               - profile
 
 jwt:
   issuer: yunanii@ourbox.co.kr
-  secret_key: study-springboot
+  secret_key: test_key
